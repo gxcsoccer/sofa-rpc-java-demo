@@ -1,5 +1,5 @@
 # sofa-rpc-java-demo
-SOFARPC Demo
+SOFARPC 示例工程
 
 ## 准备工作
 
