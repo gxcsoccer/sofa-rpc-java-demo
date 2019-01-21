@@ -49,6 +49,7 @@ public class ProtobufServiceServerMain {
         ProviderConfig<ProtoService> providerConfig = new ProviderConfig<ProtoService>()
                 .setInterfaceId(ProtoService.class.getName()) // 指定接口
                 .setRef(new ProtoServiceImpl()) // 指定实现
+                .setSerialization("protobuf")
                 .setServer(serverConfig) // 指定服务端
                 .setRegistry(registryConfig);
 
